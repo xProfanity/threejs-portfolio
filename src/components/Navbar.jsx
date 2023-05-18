@@ -9,22 +9,6 @@ const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
 
-  // useEffect(() => {
-  //   const typed = new Typed(typedRef.current, {
-  //     strings: ['Afk', 'Carrey', 'Programmer'],
-  //     typeSpeed: 100,
-  //     loop: !0,
-  //     backDelay: 3000,
-  //     backSpeed: 100,
-  //     showCursor:!0,
-  //     autoInsertCss: !0
-  //   })
-  
-  //   return () => {
-  //     typed.destroy()
-  //   }
-  // }, [])
-
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
