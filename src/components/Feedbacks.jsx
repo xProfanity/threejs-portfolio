@@ -3,16 +3,16 @@ import { motion } from 'framer-motion'
 import { styles } from '../style'
 import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from '../utils/motion'
-import { testimonials } from '../constants'
+import { quotes } from '../constants'
 
-const FeedbackCard = ({index, testimonial, name, designation, company, image }) => (
+const FeedbackCard = ({index, quote, name, designation, company, image }) => (
   <motion.div variants={fadeIn("", "spring", index * .5, .75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full '
   >
     <p className='text-white font-black text-[48px] '>&quot;</p>
 
     <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px] '>{testimonial}</p>
+      <p className='text-white tracking-wider text-[18px] '>{quote}</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
@@ -40,16 +40,16 @@ const Feedbacks = () => {
           variants={textVariant()}
 
         >
-          <p className={styles.sectionSubText} >What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText} >Role Models</p>
+          <h2 className={styles.sectionHeadText}>Quotes.</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 `}>
-        {testimonials.map((testimonial, index) => (
+        {quotes.map((quote, index) => (
           <FeedbackCard 
-            key={testimonial.name}
+            key={quote.name}
             index={index}
-            {...testimonial}
+            {...quote}
           />
         ))}
       </div>

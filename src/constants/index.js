@@ -13,16 +13,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    onlinestore,
+    shareme,
+    crowdfunding,
+    lyriks,
     threejs,
+    school,
+    self,
+    youtube
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +29,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "journey",
+      title: "Journey",
     },
     {
       id: "contact",
@@ -54,7 +52,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Collaborator",
       icon: creator,
     },
   ];
@@ -104,163 +102,217 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Java",
+      company_name: "School",
+      icon: school,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "November 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "First hands on experience in programming world",
+        "Wrote basic code to get familiar with programming and coding",
+        "Learned object oriented programming concepts such as inheritance, polymorphism, abstraction, etc.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "HTML, CSS, PHP",
+      company_name: "School",
+      icon: school,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "First experience with web development concepts",
+        "Made web projects, front-end and back-end",
+        "Tech stack used were; HTML, Bootstrap CSS, PHP, SQL",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Data Stuctures and Algorithms",
+      company_name: "school",
+      icon: school,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned the fundamentals of algorithms and Data stuctures",
+        "Discovered how to solve problems and think for my self in critical situations",
+        "Mastered solving algorithms and data structures during the covid-19 pandemic lockdown",
+        "Was proceeding school calendar through e-learning",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Javascript",
+      company_name: "Self",
+      icon: self,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Took steps forward in web dev, sharpening front-end skills",
+        "Gathered information from e-books, YouTube, and boot camps",
+        "Started looking at frameworks like p5.js along the learning process",
+        "Web development became a hobby",
+      ],
+    },
+    {
+      title: "Fullstack development with frameworks",
+      company_name: "YouTube",
+      icon: youtube,
+      iconBg: "#E6DEDD",
+      date: "June 2021",
+      points: [
+        "Discovered React.js, tailwind css, and firebase from a course by Karl Hadwen on YT",
+        "Explored even more techs to improve my abilities",
+        "Learned coding best practices, more algorithms, project collaborations on github",
+        "Learned how to build a tech stack for a project in 2023",
+        "Been going through burnouts but still go through various documentations of different technologies, and doing some algorithms on leetcode",
       ],
     },
   ];
   
-  const testimonials = [
+  const quotes = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      quote:
+        "The biggest risk is not taking any risk. In a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks.",
+      name: "Mark Zuckerberg",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Facebook",
+      image: "https://cdn.britannica.com/99/236599-050-1199AD2C/Mark-Zuckerberg-2019.jpg",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      quote:
+        "The Internet is becoming the town square for the global village of tomorrow.",
+      name: "Bill Gates",
+      designation: "CFO",
+      company: "Microsoft",
+      image: "https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      quote:
+        "Always deliver more than expected.",
+      name: "Larry Page",
+      designation: "CFO",
+      company: "Google",
+      image: "https://cdn.britannica.com/17/101217-050-89474964/Larry-Page-Sergey-Brin.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Electronic Online Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that enables users to browse for electronic equipments, look through the variations of their choice in colors, purchase their products in a cart.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sanity.io",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: onlinestore,
+      source_code_link: "https://github.com/Got-crypto/afk-electronic-online-store.git",
+      project_link: "https://afk-electronic-online-store.vercel.app/",
+    },
+    {
+      name: "Share me",
+      description:
+        "A social web application where google authenticated users post various pictures and interact with other pictures posted by others, displayed in a masonry layout, with comments, likes, downloading ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "sanity.io",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "googleAuth",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "masonrylayout",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: shareme,
+      source_code_link: "https://github.com/Got-crypto/afk-shareme-app.git",
+      project_link: "https://shareme-afk.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Web3 Crowdfunding",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Web3 platform web app with blockchain technology for crowdfunding, fundraising in the blockchain technology. This is a dApp, decentralized app, where individuals from around the globe can contribute securely, and be part of a vibrant community driving impactful projects forward.",
       tags: [
         {
-          name: "nextjs",
+          name: "thirdweb",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "vite.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
+        {
+          name: "blockchain",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "solidity",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: crowdfunding,
+      source_code_link: "https://github.com/Got-crypto/afk-crowdfunding.git",
+      project_link: "https://crowdfunding-afk.netlify.app/",
+    },
+    {
+      name: "Lyriks",
+      description:
+        "Discover top tracks on Lyricks and listen to their snippets. With Shazam API get song of different categories including ones around you.",
+      tags: [
+        {
+          name: "RapidAPI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Shazam",
+          color: "green-text-gradient",
+        },
+      ],
+      image: lyriks,
+      source_code_link: "https://github.com/Got-crypto/lyriks-shazam.git",
+      project_link: "https://lyriks-shazam.vercel.app",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, quotes, projects };
   
