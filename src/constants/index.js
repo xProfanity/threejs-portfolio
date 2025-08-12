@@ -20,7 +20,8 @@ import {
     threejs,
     school,
     self,
-    youtube
+    youtube,
+    resumeiq
   } from "../assets";
   
   export const navLinks = [
@@ -218,7 +219,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: onlinestore,
+      image: resumeiq,
       source_code_link: "https://github.com/xProfanity/resumeiq.git",
       project_link: "https://resumeiq-chi.vercel.app/",
     },
