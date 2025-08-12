@@ -201,26 +201,26 @@ import {
   
   const projects = [
     {
-      name: "Electronic Online Store",
+      name: "ResumeIQ",
       description:
-        "Web application that enables users to browse for electronic equipments, look through the variations of their choice in colors, purchase their products in a cart.",
+        "A web application that uses AI to analyze your resume for a job you are applying for and gives you ATS score and feedback with recommendations of areas you need to improve for your resume to stand out.",
       tags: [
         {
-          name: "next.js",
+          name: "React.JS",
           color: "blue-text-gradient",
         },
         {
-          name: "sanity.io",
-          color: "green-text-gradient",
+          name: "Puter.js",
+          color: "skyblue-text-gradient",
         },
         {
-          name: "css3",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
       image: onlinestore,
-      source_code_link: "https://github.com/Got-crypto/afk-electronic-online-store.git",
-      project_link: "https://afk-electronic-online-store.vercel.app/",
+      source_code_link: "https://github.com/xProfanity/resumeiq.git",
+      project_link: "https://resumeiq-chi.vercel.app/",
     },
     {
       name: "Share me",
