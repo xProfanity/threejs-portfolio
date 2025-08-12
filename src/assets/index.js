@@ -31,8 +31,10 @@ import onlinestore from "./online-store.png";
 import shareme from "./shareme.png";
 import crowdfunding from "./crowdfunding.png";
 import lyriks from "./lyriks.png"
+import resumeiq from "./hero.png"
 
 export {
+  resumeiq,
   afk,
   logo,
   backend,
